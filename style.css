@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+html{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+header{
+    width: 100%;
+}
+.header_navbar-container{
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 80px;
+    background-color: #232536;
+    
+}
+.header_logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 3px;
+}
+
+.header_logo img{
+    color: #FFFFFF;
+    width: 140px;
+    height: 28.35px;
+    
+
+}
+.header_nav{
+  width: 350px;
+  height: 29px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 80px;
+}
+.header_nav li{
+    list-style: none;
+   
+}
+.header_nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-right: 26px;
+}
+
+.button_nav button{
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+    padding: 16px 48px;
+    gap: 12px;
+}
+/* banner */
+.section_banner-container{
+    width: 100%;
+    height: 550px;
+    background-color: #F4F0F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.section_banner{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.author img{
+    width: 251px;
+    height: 294px;
+    margin-right: 32px;
+    
+}
+.banner_text{
+    width: 669px;
+    height: 236px;
+}
+.banner_text h2{
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #232536;
+    margin-bottom: 24px;
+}
+.banner_text p{
+    width: 645px;
+    height: 84px;
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+.banner_text .social_icons{
+    width: 112px;
+    height: 16px;
+    margin-top: 24px;
+    background-image: url('./img/Social\ wrapper.svg');
+}
+.background-shape{
+    /* width: 950px;
+    height: 24px; */
+}
+.background-shape img{
+    width: 1024px;
+    height: 24px;
+
+}
