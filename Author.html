@@ -11,21 +11,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Sen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header_navbar-container">
-        
-        <div class="header_logo">
-            <img src="./img/Logo.svg" alt="logo">
+    <header>
+        <!-- <div class="header_navbar-container"> -->
+            <div class="header_logo">
+                <img src="./img/Logo.svg" alt="logo">
+            </div>
+            <nav>
+                <ul class="header_nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="button_nav"><button>Subscribe</button></a>
         </div>
-        <nav>
-            <ul class="header_nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="button_nav"><button>Subscribe</button></a>
-        
     </header>
     <section class="section_banner-container">
         <div class="section_banner">
@@ -33,16 +33,44 @@
                 <img src="./img/close-up-photography-of-man-wearing-sunglasses-1212984.svg" alt="">
             </picture>
             <div class="banner_text">
-                <h2>Hey there, I’m Andrew Jonhson and welcome to my Blog</h2>
+                <h1>Hey there, I’m Andrew Jonhson and welcome to my Blog</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.</p>
                 <div class="social_icons">
-                    
+                    <img src="./img/Social wrapper.svg" alt="">
                 </div>
+                
             </div>
+            
         </div>
         <picture class="background-shape">
             <img src="./img/Pattern.svg" alt="">
         </picture>
+    </section>
+    <section class="section_blog-container">
+        <div class="section_blog">
+            <h1>My Posts</h1>
+            <div class="article">
+                <picture class="business">
+                    <img src="./img/stained-glass-high-rise-building-1106476.svg" alt="">
+                </picture>
+                <div class="blog_text">
+                    <span>BUSINESS</span> 
+                    <H2>Font sizes in UI design: The complete guide to follow</H2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
+                </div>
+            </div>
+            <div class="article">
+                <picture class="economy">
+                    <img src="./img/man-in-black-crew-neck-t-shirt-sitting-beside-woman-in-gray-crew-neck-t-shirt-3153201.svg" alt="">
+                </picture>
+                <div class="blog_text">
+                    <a href="">ECONOMY</a>
+                    <H2>How to build rapport with your web design clients</H2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
+                </div>
+            </div>    
+        </div>
+    </section>
     </section>
 </body>
 </html>
